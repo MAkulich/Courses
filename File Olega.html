@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Тренировочка</title>
+    <meta charset="utf-8" />
+    <style>
+      div{
+        width: 5000px;
+        height: 5000px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Тренировочка</h1>
+    <div>
+
+      <p>
+        <a href="2-source-picture.html">Вiдносний</a>
+      </p>
+
+      <p>
+        <a href="https://www.w3schools.com">Повне посилання</a>
+      </p>
+
+      <p>
+        <a href="test.html#hello">Переносить одразу вниз на Hello</a>
+      </p>
+
+      <p>
+        <a href="javascript:alert('БАН');">Уведомление через ДжаваСкрипт</a>
+      </p>
+
+      <p>
+        <a href="mailto:someone@example.com">Сразу перекидает на почту писать письмо</a>
+      </p>
+
+      <p>
+        <a target="_blank" href="https://www.w3schools.com">В новом окне открывает ссылку</a>
+      </p>
+
+      <p>
+        <a target="_parent" href="https://www.w3schools.com">В этом окне открывает ссылку</a>
+      </p>
+
+      <p>
+        <a type="image/png" href="https://www.w3schools.com/images/lamp.jpg">Ссылка на фотографию</a>
+      </p>
+
+      <p>
+        <picture>
+          <source media="(min-width:650px)" srcset="https://www.w3schools.com/tags/img_pink_flowers.jpg">
+          <source media="(min-width:465px)" srcset="https://www.w3schools.com/tags/img_white_flower.jpg">
+          <img src="https://www.w3schools.com/tags/img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+        </picture>
+      </p>
+      
+      <p>
+        <p>Аудио с интерфейсом</p>
+        <audio controls src="https://www.w3schools.com/tags/horse.ogg"></audio>
+      </p>
+
+      <p>
+        <p>Аудио должно сразу включаться, но нет...</p>
+        <audio controls autoplay src="https://www.w3schools.com/tags/horse.ogg"></audio>
+      </p>
+
+      <p>
+        <p>Если запустишь, то будет играть снова и снова</p>
+        <audio controls autoplay loop src="https://www.w3schools.com/tags/horse.ogg"></audio>
+      </p>
+
+      <p>
+        <p> По дефолту будет с вырубленным звуком</p>
+        <audio controls muted src="https://www.w3schools.com/tags/horse.ogg"></audio>
+      </p>
+
+      <p>
+        <p> Сайт подгрузит сразу</p>
+        <audio controls muted preload="auto" src="https://www.w3schools.com/tags/horse.ogg"></audio>
+      </p>
+
+      <p>
+        <p> Сайт подгрузит метаданные</p>
+        <audio controls muted preload="metadata" src="https://www.w3schools.com/tags/horse.ogg"></audio>
+      </p>
+
+      <p>
+        <p> Сайт подгрузит ничего</p>
+        <audio controls muted preload="none" src="https://www.w3schools.com/tags/horse.ogg"></audio>
+      </p>
+      
+      <p>
+        <p>Видео</p>
+        <video controls src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/friday.mp4"></video>
+      </p>
+
+      <p>
+        <p>Видео автопуск, но нет...</p>
+        <video controls autoplay src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/friday.mp4"></video>
+      </p>
+
+      <p>
+        <p>Видео мут</p>
+        <video controls muted src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/friday.mp4"></video>
+      </p>
+
+      <p>
+        <p>Видео после окончания сразу повтор</p>
+        <video controls muted loop src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/friday.mp4"></video>
+      </p>
+
+      <p>
+        <p>Видео c измененным размером</p>
+        <video width="400" height="400" controls muted loop src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/friday.mp4"></video>
+      </p>
+
+      <p>
+        <p>Видео c превью</p>
+        <video poster="https://www.w3schools.com/tags/img_pink_flowers.jpg" controls muted loop src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/friday.mp4"></video>
+      </p>
+
+      <p>
+        <video controls src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/friday.mp4">
+          <track default label="Субтитры" kind="captions" srclang="en" src="https://interactive-examples.mdn.mozilla.net/media/examples/friday.vtt">
+        </video>
+      </p>
+
+
+
+    </div>
+    <h2 id="hello">
+      Hello
+    </h2>
+    
+  </body>
+</html>
+
+<!-- https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_a_download -->
